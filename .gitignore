@@ -1,0 +1,62 @@
+# ── Build artefacts ──────────────────────────────────────────────────────────
+build/
+out/
+cmake-build-*/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# ── Compiled plugin bundles (installed copies — built from source) ────────────
+*.vst3
+*.component
+*.app
+*.dll
+*.so
+*.dylib
+
+# ── CMake generated files ────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+
+# ── macOS system files ───────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# ── Xcode ────────────────────────────────────────────────────────────────────
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# ── Compiler / linker ────────────────────────────────────────────────────────
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.map
+*.d
