@@ -2,7 +2,7 @@
 
 A software emulation of the Korg DW-8000 synthesizer, built as an audio plugin using the JUCE framework.
 
-![WJ-8000](public/screen.png)
+![WJ-8000](public/screen-1.png)
 
 ## Overview
 
